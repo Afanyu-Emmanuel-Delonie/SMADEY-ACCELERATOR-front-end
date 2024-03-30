@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMADEY</title>
+    <link rel="stylesheet" href="/CSS/profile.css">
+    <link rel="icon" href="/img/wallpapper.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="Navigation">
+        <div class="logo">
+            <img src="/img/logo.png" alt="" width="150px"  height="auto"/>
+        </div>
+        <nav class="header">
+           
+        
+       <div class="main-nave">
+         <div class="profile">
+            <div class="county">
+                <a href="#" >Cameroon</a>
+            </div>
+            <div class="home-btn">
+                <a href="#" class="home" id="menu-btn"><i class="fa-solid fa-bars"></i></a>
+            </div>
+            <img src="/img/team-3.jpg" alt="" class="dropbtn"  onclick="openProfile()"/>
+          </div>
+
+          <div class="dropdown-content" id="myDropdown">
+      <a href="#"><i class="fa-solid fa-pen-to-square"></i>Profile</a>
+      <a href="#"><i class="fa-solid fa-money-check-dollar"></i>Bank Details</a>
+      <a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i>Log Out </a>
+    </div>
+       </div>
+    </header>
+    <section class="side-bar">
+        <div class="side-bar-1">
+           <div class="dashboard">
+             <a href="/HTML/"><i class="fa-solid fa-table-cells"></i>Dashboard</a>
+           </div>
+            <ul class="sidebar-menu-item" id="menu">
+                 <li><a href="#Home" id="home"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+                <li><a href="#"><i class="fa-solid fa-box-tissue"></i></i>Products</a></li>
+                <li><a href="#"><i class="fa-solid fa-users"></i></i>Vendors</a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i>Buy</a></li>
+              
+            </ul>
+            <hr class="line">
+        </div>
+         <div class="side-bar-2">
+            <ul class="sidebar-menu-item">
+                <li><a href="#"><i class="fa-solid fa-gift"></i>Courses</a></li>
+                 <li><a href="#"  class="btn-1"
+                onclick="document.getElementById('id01').style.display='block'" ><i class="fa-solid fa-users" >
+                </i></i>Withdraw</a></li>
+                <li><a href="/HTML/profile.html"><i class="fa-solid fa-user"></i></i>Profile</a></li>
+                 <li><a href="#"><i class="fa-solid fa-bullhorn"></i></i>Place Adds</a></li>
+                <li><a href="#"><i class="fa-solid fa-dice"></i></i>Games</a></li>
+                <li><a href="#"><i class="fa-solid fa-bell"></i>Notification <span>3</span></a></li>
+                <li><a href="#"><i class="fa-solid fa-gear"></i>Settings</a></li>
+            </ul>
+           
+            <hr class="line">
+         </div>
+          <div class="side-bar-3">
+            <div class="profile-side">
+                <img src="/img/team-3.jpg" alt="" width="50" height="auto">
+            </div>
+            <div class="user-name">
+                 <h2>Celina Vegas</h2>
+            </div>
+          </div>
+             <div class="referred">
+                <div class="people">
+                    <i class="fa-solid fa-users-line"></i>
+                </div>
+              <div class="referrals">
+                <h5>Referrals:</h5>
+                <span>2</span>
+              </div>
+            </div>
+    </section>
+
+    <script src="/JS/main.js"></script>
+</body>
+</html>
+
+
+<!=============================== start of body and end of header ================================>
+
+
+ <div id="id01" class="modal">
+         <span onclick="document.getElementById('id01').style.display='none'" class="close"
+       title="Close Modal"><i class="bx bx-x"></i></span>
+      <section class="logIn">
+        <div class="form-container">
+             <div class="right-form">
+               <form action="" >
+                 <!======================== login form =================>
+                <div class="log-form">
+                    <div class="sub-log-form">
+                        <div class="form-title">
+                        <span>Withdrawal</span>
+                        <span>Choose wallet</span>
+                    </div>
+                    <hr class="line-1">
+
+                     <div class="withdraw-titles">
+                       <div class="wallets">
+                        <button class="wallet-1"><i class="fa-solid fa-wallet"></i> Affiliate</button>
+                        <button class="wallet-2"><i class="fa-solid fa-wallet"></i>Non-Affiliate</button>
+                       </div>
+                    </div>
+                    <div class="form-input">
+                        <div class="input-box">
+                            <input type="text" class="input-field" placeholder="Minimum Amount 5000XAF" name="Amount" />
+                        </div>
+
+                         <div class="input-box">
+                            <input type="password" class="input-field" placeholder="PIN" name="userPIN" />
+                        </div>
+
+                         <div class="input-box">
+                          <button class="input-submit-1" name="">
+                            <span>Withdraw</span>
+                          </button>
+                           <button class="input-submit-2" name="">
+                            <span  class="btn-1"
+                            onclick="document.getElementById('id01').style.display='none'">Cancel</span>
+                          </button>
+                        </div>
+                    </div>
+                </div>
+
+               </form>
+         
+            </div>
+                    </div>
+                    
+        </div>
+    </section>
+
+     </div>
+
+     <!=============================== start of body and end of PopUps ================================>
+<section class="main-box-1">
+     
+       <div class="container">
+         <h2>Hi Gillian</h2>
+        <p><em>Welcome to your dashboard</em></p>
+         <div class="container-2">
+           <div class="wallet">
+                <div class="wallet-icon">
+                    <i class="fa-solid fa-wallet"></i>
+                </div>
+                <div class="wallet-details">
+                    <h4>Non-Affiliate wallet</h4>
+                   <p>5000 <span>XAF</span></p>
+                   <p class="percentage-1"><span>70%</span> this month</p>
+                </div>
+            </div>
+          <div class="wallet">
+                <div class="wallet-icon-2">
+                    <i class="fa-solid fa-wallet"></i>
+                </div>
+                <div class="wallet-details">
+                    <h4> Affiliate wallet</h4>
+                   <p>5000 <span>XAF</span></p>
+                   <p class="percentage-2"><span>30%</span> this month</p>
+                </div>
+            </div>
+
+               <div class="wallet">
+                <div class="wallet-icon-3">
+                   <i class="fa-solid fa-people-line"></i>
+                </div>
+                <div class="wallet-details">
+                    <h4> Total Referrals</h4>
+                   <p>7 <span>People</span></p>
+                </div>
+            </div>
+        </div>
+     </div>
+       </div>
+</section>
+
+<section class="task">
+<div class="daily-task"  id="Daily-Task">
+   <div class="main-container">
+     <div class="task-container">
+        <h3>Daily Tasks</h3>
+    </div>
+    <div class="daily-activity">
+    <img src="/img/wallpapper.jpg" alt="" >
+</div>
+<div class="details">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ratione!
+    </p>
+   <div class="post-btn">
+         <button type="submit" class="btn-daily-1">Perform Task</button>
+          <button type="submit" class="btn-daily-2">Complete Task</button>
+    </div>
+</div>
+   </div>
+</div>
+
+<div class="sponsored-post"  id="Sponsored-post">
+   <div class="main-container">
+     <div class="task-container">
+        <h3>Sponsored Posts</h3>
+
+    </div>
+    <div class="daily-activity">
+        <img src="/img/wallpapper.jpg" alt="" width="200px" height="auto">
+    </div>
+    <div class="details">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ratione!
+    </p>
+    <div class="post-btn">
+         <button type="submit" class="btn-daily-1">Engage Post</button>
+          <button type="submit" class="btn-daily-2">Complete Post</button>
+    </div>
+</div>
+   </div>
+</div>
+
+<div class="adverts" id="Adverts">
+  <div class="main-container">
+      <div class="task-container">
+        <h3>Sell Product </h3>
+
+    </div>
+    <div class="daily-activity">
+        <img src="/img/wallpapper.jpg" alt="" width="200px" height="auto">
+    </div>
+    <div class="details">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, ratione!
+    </p>
+     <div class="post-btn">
+         <button type="submit" class="btn-daily-1">Get Product</button>
+        <button type="submit" class="btn-daily-2">Hand In Prd</button>
+    </div>
+    
+</div>
+  </div>
+</div>
+
+</section>
+
+
+<!===================================================== PopUps ===============================================================>
+

@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard| Admin</title>
-    <link rel="stylesheet" href="/CSS/profile.css">
+    <link rel="stylesheet" href="/CSS/main.css">
     <link rel="stylesheet" href="/CSS/admin-dashboard.css">
+    <link rel="stylesheet" href="/CSS/media-responsive.css">
     <link rel="icon" href="/img/wallpapper.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" 
     referrerpolicy="no-referrer" />
 </head>
 <body>
    
-    <header class="Navigation">
+<section class="larger-device">
+        <header class="Navigation">
         <div class="logo">
             <img src="/img/logo.png" alt="" width="150px"  height="auto"/>
         </div>
@@ -27,6 +29,10 @@
             <div class="home-btn">
                 <a href="#" class="home" id="menu-btn"><i class="fa-solid fa-bars"></i></a>
             </div>
+             <div class="home-notification">
+               <a href="#"><i class="fa-solid fa-bell"></i><p>3</p></a>
+            </div>
+            
             <img src="/img/team-3.jpg" alt="" class="dropbtn"  onclick="openProfile()"/>
           </div>
 
@@ -39,9 +45,6 @@
     </header>
     <section class="side-bar">
         <div class="side-bar-1">
-           <div class="dashboard">
-             <a href="/HTML/user_dashboard.html"><i class="fa-solid fa-table-cells"></i>Dashboard</a>
-           </div>
             <ul class="sidebar-menu-item" id="menu">
                  <li><a href="#Home" id="home"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
                 <li><a href="#"><i class="fa-solid fa-box-tissue"></i></i>Products</a></li>
@@ -53,6 +56,7 @@
         </div>
          <div class="side-bar-2">
             <ul class="sidebar-menu-item">
+                <li> <a href="/HTML/user_dashboard.html"><i class="fa-solid fa-laptop"></i>Dashboard</a></li>
                 <li><a href="#"><i class="fa-solid fa-gift"></i>Courses</a></li>
 
                  <li><a href="#"  class="btn-1"
@@ -61,7 +65,6 @@
                 <li><a href=""><i class="fa-solid fa-credit-card"></i></i>Payment</a></li>
                  <li><a href="#"><i class="fa-solid fa-bullhorn"></i></i>Add  Adverts</a></li>
                  <li><a href="#"><i class="fa-solid fa-bullhorn"></i></i>view Adverts</a></li>
-                <li><a href="#"><i class="fa-solid fa-bell"></i>Notification <span>3</span></a></li>
                 <li><a href="#"><i class="fa-solid fa-gear"></i>Settings</a></li>
             </ul>
            
@@ -255,12 +258,72 @@
                 </div>
             </div>
             
+             <div class="wallet-auto-2">
+                <div class="wallet-icon">
+                     <img src="/img/vendor-4.jpg" alt="" width="100px" height="auto"/>
+                </div>
+                <div class="wallet-details">
+                   <h4> Coach Huston </h4>
+                   <p><a href="#">+250 798 971 739 </a></p>
+                </div>
+            </div>
         </div>
      </div>
        </div>
 </section>
 
+</section>
+<section class="mobile-screens">
+  <section class="side-bar">
+        <div class="side-bar-1">
+           <div class="dashboard">
+           </div>
+            <ul class="sidebar-menu-item" id="menu">
+                 <li><a href="#Home" id="home"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
+                <li><a href="#"><i class="fa-solid fa-box-tissue"></i></i>Products</a></li>
+                <li><a href="#"><i class="fa-solid fa-users"></i></i>Vendors</a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i>Buy</a></li>
+                >
+              
+            </ul>
+            <hr class="line">
+        </div>
+         <div class="side-bar-2">
+            <ul class="sidebar-menu-item">
+                 <li> <a href=""><i class="fa-solid fa-laptop"></i>Dashboard</a></li>
+                <li><a href="#"><i class="fa-solid fa-gift"></i>Courses</a></li>
+                 <li><a href="#"  ><i class="fa-solid fa-users" >
+                </i></i>Withdraw</a></li>
+                <li><a href="/HTML/profile.html"><i class="fa-solid fa-user"></i></i>Profile</a></li>
+                 <li><a href="#"><i class="fa-solid fa-bullhorn"></i></i>Daily-Task</a></li>
+                  <li><a href="#"><i class="fa-solid fa-bullhorn"></i></i>S post</a></li>
+                   <li><a href="#"><i class="fa-solid fa-bullhorn"></i></i>Sale Product</a></li>
+                <li><a href="#"><i class="fa-solid fa-dice"></i></i>Games</a></li>
+                <li><a href="#"><i class="fa-solid fa-gear"></i>Settings</a></li>
+            </ul>
+           
+            <hr class="line">
+         </div>
+          <div class="side-bar-3">
+            <div class="profile-side">
+                <img src="/img/team-3.jpg" alt="" width="50" height="auto">
+            </div>
+            <div class="user-name">
+                 <h2>Celina Vegas</h2>
+            </div>
+          </div>
+             <div class="referred">
+                <div class="people">
+                    <i class="fa-solid fa-users-line"></i>
+                </div>
+              <div class="referrals">
+                <h5>Referrals:</h5>
+                <span>2</span>
+              </div>
+            </div>
+    </section>
 
+</section>
 
 <script src="/JS/main.js"></script>
 </body>

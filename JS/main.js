@@ -47,3 +47,11 @@ function openForm() {
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
+
+
+//dark and light mood
+
+const toggleButton = document.getElementById("dark-mode-toggle");
+toggleButton.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mood");
+});

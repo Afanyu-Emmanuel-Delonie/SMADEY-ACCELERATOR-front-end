@@ -1,0 +1,279 @@
+@media(min-width: 430){
+    
+}
+
+    .daily-task{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.task-title{
+    margin-top: 17rem;
+    margin-left: 30rem;
+    background-color: #0b132b;
+    width: 45%;
+    padding: 1rem 0;
+}
+
+.daily-task-container h4{
+    color: #ccc;
+    padding-left: 2rem;
+    
+}
+.daily-task-container .task-line{
+    color: #cccccc6c;  
+}
+
+.task-details h2{
+    text-align: center;
+    margin: 2rem;
+    color: #ffffff;
+}
+
+.daily-task-details{
+    border: 2px solid #ff5600;
+    margin: 0.5rem 1.5rem;
+    padding: 1.5rem 1.5rem;
+    background-color: #cccccc31;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.daily-task-details h3{
+    color: #ffffff;
+    text-align: center;
+    padding: 0.7rem auto;
+    margin-bottom: 1rem;
+}
+
+.daily-task-details .price{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+    color:  #fff;
+}
+
+.daily-task-details .price p{
+    text-align: left;
+}
+
+.daily-task-details .period{
+   display: flex;
+    justify-content: space-between;
+    margin: 1.5rem auto;
+    color:  #fff; 
+}
+.daily-task-details .period p{
+    text-align: left;
+}
+
+.daily-task-details .duration{
+   display: flex;
+    justify-content: space-between;
+    margin: 1.5rem auto;
+    color:  #fff; 
+}
+
+.daily-task-details .duration p{
+    text-align: left;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+
+.buttons .btn-daily-auto-1{
+    background-color: #000fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.buttons .btn-daily-auto-2{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
+
+/* ================================================================= message vendor ================================================================= */
+.mobile-message-box{
+    width: 88%;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 20px 10px;
+    position: relative;
+    overflow-x: hidden;
+    border-radius:10px ;
+    background-color: #0b132b;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+
+.mobile-message-box h3{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+.mobile-message-box p{
+    text-align: center;
+    color: #ff5600;
+    margin-bottom: 1rem;
+}
+
+.mobile-message-box .message-container-box{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+       .message-container-box input {
+            padding: 5px;
+            height: 50px;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+}
+.message-container-box textarea{
+    margin-left: 0.9rem;
+    width: 91%;
+    color: #fff;
+    caret-color: #ff5600;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-left: 10px;
+    height: 100px;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border-radius: 5px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.message-container-box textarea::placeholder{
+    color: #ccc;
+    margin-left: 1px;
+    text-align: left;
+    padding-top: 5px;padding-left: 5px;
+}
+
+.submit-message{
+    align-content: center;
+    width: 70%;
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.submit-message:hover{
+    background-color: #000fff;
+}
+
+.replies{
+    width: 88%;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1.5rem;
+    padding: 20px 10px;
+    position: relative;
+    overflow-x: hidden;
+    border-radius:10px ;
+    background-color: #0b132b;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.message-inbox{
+    margin-bottom: 1rem;
+}
+
+.message-inbox h3{
+    color: #fff;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.message-inbox hr{
+    margin-bottom: 1rem;
+}
+
+.message-inbox p{
+    color: #ff5600;
+    text-align: center;
+    margin-bottom:  .75rem;
+}
+.reply-message{
+    background-color: #cccccc44;
+    padding: 10px;
+    margin-bottom: 1rem;
+    backdrop-filter:  blur(4px);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.reply-message p{
+    color: #fff;
+}
+
+.reply-message .reply{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reply h5{
+    color: #ff5600;
+}
+.reply h6{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

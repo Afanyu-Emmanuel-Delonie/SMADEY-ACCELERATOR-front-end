@@ -1,0 +1,331 @@
+@media(max-width:430px){
+body{
+     background-color:  #caf0f870;;
+     
+}
+.larger-device{
+  display: none;
+}
+
+:root {
+  --blue: #2a2185;
+  --white: #fff;
+  --gray: #f5f5f5;
+  --black1: #222;
+  --black2: #999;
+}
+    .M-wallet-auto-2{
+        gap: 2rem;
+        display: flex;
+        margin-top: 1rem;
+        margin-left: 3.5rem;
+        width: 80%;
+        backdrop-filter: blur(2px);
+        border: 1px solid #ccc;
+        background-image: url(/img/home\ background.jpg);
+        margin-left: 1.6rem;
+        /*margin-bottom:-3rem ;
+        */margin-right: auto;
+        padding: 10px;
+        border-radius: 10px;
+        /*-webkit-border-radius:;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+         */:;
+        -webkit-border-radius: 10px;
+}
+.greeting{
+        margin-top: 2.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        width: 92%;
+        height: 70px;
+        background-color: #0b132b;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
+.greeting h2{
+    padding-top: 1rem;
+    padding-left: 15px;
+    color: #ffff;
+    text-align: center;
+}
+.greeting p{
+    padding-left: 15px;padding-bottom: 10px;
+    color: #ffff;
+    text-align: center;
+}
+
+    .wallet-icon img{
+        border-radius: 50%;
+        /*-webkit-border-radius:;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+         */:;
+        -webkit-border-radius: 50%;
+}
+.wallet-details h4{
+    margin-top: 1rem;
+    color: #ffff;
+}
+
+.wallet-details a{
+    margin-top: 1rem;
+    color: #ffff;
+}
+
+
+/*=========================================== this is for the daily tasks section =========================================*/
+.daily-task-info{
+    width: 80%;
+    margin-left: 2rem;
+    padding: 12px 6px;
+    background-color: #e6efe7c4;
+    border-radius: 10px;
+    /*-webkit-border-radius:;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+     */:;
+    -webkit-border-radius: 10px;
+}
+.daily-task-info p{
+    color: red;
+    padding: 12px 9px;
+}
+
+.daily-task{
+    width: 80%;
+    margin-top: 2rem;
+    padding: 10px;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    background-color: #0b132b;
+    border-radius: 10px;
+    /* -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:; */
+}
+
+.daily-task h3{
+    color: #ffff;
+    font-size: 24px;
+    padding: 10px;
+    margin-left: 3rem;
+}
+.daily-task hr{
+    width:  80%;
+    margin-bottom: 1.5rem;
+    opacity:  .5;
+    margin-left: 2rem;
+}
+
+form input{
+    width: 90%;
+    margin-left: 0.7rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    height: 40px;
+    outline: none;
+    font-size: 16px;
+    padding-left: 10px;
+    backdrop-filter: blur(3px);
+    caret-color: #ff5600;
+    color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    /*-webkit-border-radius:;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    */-webkit-border-radius:;
+    -webkit-border-radius: 5px;
+}
+input::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+input:-moz-placeholder {
+  color: #ccc;
+}
+form label{
+    margin-left: 1.1rem;
+    color: #fff;
+}
+
+.submit-task{
+    width: 90%;
+    height: 50px;
+    outline:  none;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 1rem;
+    border-radius: 10px;
+    background-color: #ff5600;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size:  18px;
+    transition: 0.5s;
+    /*-webkit-border-radius:;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
+    */:;
+    -webkit-border-radius: 10px;
+}
+.submit-task:hover{
+    background-color: #000fff;
+}
+
+.custom-file-input {
+  width: 93%;
+  height: 50px;
+  position: relative;
+  margin-top: 1rem;
+  border-radius: 5px;
+  padding: 5px;
+  padding-top: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  /* -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:; */
+}
+
+.custom-file-input::-webkit-file-upload-button {
+  display: none;
+}
+
+.custom-file-input::before {
+  content: 'Choose file';
+  display: inline-block;
+  background-color: #0b132b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.country-select {
+  margin-bottom: 1rem;
+  width: 95%;
+  margin-left: 0.7rem;
+  background-color: transparent;
+  backdrop-filter: blur(3px);
+}
+
+.country-select select {
+  appearance: none;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 4px;
+  width: 100%;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.country-select label {
+    margin-left: 0;
+}
+.country-select select::-ms-expand {
+  display: none;
+}
+
+.country-select select option {
+  background-color: #fff;
+  color: #333;
+}
+
+.country-select select option:checked {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.reply-form {
+        display: none;
+}
+.massages-box{
+    width: 80%;
+    border: 1px solid #ccc;
+    margin-left: 1.6rem;
+    margin-right: auto;
+    padding: 10px;
+    background-color: #0b132b;
+    margin-top: 2rem;margin-bottom: 1rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.massages-box h3 {
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 9px;   
+}
+.message{
+    margin-top: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.message p{
+    color: #fff;
+}
+
+.message button{
+    padding: 0 15px;
+    width: 25%;
+    margin-top: 5px;
+    outline: none;
+    color: #ffffff;
+    border: none;
+    background-color: #000fff;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.reply-form input{
+    border: 2px solid #000fff;
+   background-color: transparent;
+   color: #fff;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+

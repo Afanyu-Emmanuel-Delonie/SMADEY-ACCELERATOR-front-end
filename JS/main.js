@@ -23,16 +23,9 @@ document.querySelector("#menu-btn").onclick = () => {
     
 }*/
 
-    let sideBar = document.querySelector(".side-bar");
-    let menuBtn = document.querySelector("#menu-btn");
+    let sideBar = document.querySelector(".M-side-bar");
+    let menuBtn = document.querySelector("#M-menu-btn");
 
-    // Add an event listener to the window object to listen for changes in the screen size
-    window.addEventListener("resize", () => {
-        // If the screen is 1024 pixels or wider, remove the "active" class from the sidebar
-        if (window.matchMedia("(min-width: 1024px)").matches) {
-            sideBar.classList.remove("active");
-        }
-    });
 
     // Add an event listener to the menu button to toggle the "active" class on the sidebar
     menuBtn.addEventListener("click", () => {
@@ -55,3 +48,21 @@ const toggleButton = document.getElementById("dark-mode-toggle");
 toggleButton.addEventListener("click", () => {
   document.body.classList.toggle("dark-mood");
 });
+
+//massages 
+ function showReplyForm(button) {
+        var replyForm = button.nextElementSibling;
+        replyForm.style.display = 'block';
+    }
+
+    function submitReply(button) {
+        var replyInput = button.previousElementSibling;
+        var replyMessage = replyInput.value;
+        // You can perform further actions here, like sending the reply to a server
+        console.log('Reply:', replyMessage);
+        // Reset the input field
+        replyInput.value = '';
+        // Hide the reply form
+        var replyForm = button.parentNode;
+        replyForm.style.display = 'none';
+    }

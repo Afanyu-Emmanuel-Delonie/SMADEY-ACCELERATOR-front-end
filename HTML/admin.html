@@ -3,36 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard| Admin</title>
+    <title> Admins Dashboard| SMADEY</title>
     <link rel="stylesheet" href="/CSS/main.css">
     <link rel="stylesheet" href="/CSS/admin-dashboard.css">
-    <link rel="stylesheet" href="/CSS/media-responsive.css">
+    <link rel="stylesheet" href="/CSS/media-query.css">
     <link rel="icon" href="/img/wallpapper.jpg">
+    <link rel="stylesheet" href="/CSS/other-navigations.css">
+    <link rel="stylesheet" href="/CSS/vendors-media-query.css">
+    <link rel="stylesheet" href="/CSS/user-daily-task.css">
+    <link rel="stylesheet" href="/CSS/user-dashboard.css">
+    <link rel="stylesheet" href="/CSS/user-task.css">
+    <link rel="stylesheet" href="/CSS/user-media-querries.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" 
     referrerpolicy="no-referrer" />
 </head>
 <body>
    
 <section class="larger-device">
-        <header class="Navigation">
+    <div class="Apology">
+  <h1>Welcome please wait watch the video below</h1>
+    
+   <!-- Video -->
+    <video width="100%" height="100%" controls autoplay>
+        <source src="/img/desktop.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>   
+
+</section>
+<section class="mobile-screens">
+
+
+  <section class="M-side-bar">
+        <div class="M-side-bar-1">
+           <div class="M-sidebar-menu-item">
+                <div class="icon">
+                  <a href="/HTML/admin.html"><i class="fa-solid fa-house-chimney"></i></a>
+                  <h5>Home</h5>
+                </div>
+
+                 <div class="icon">
+                  <a href="/HTML/user_dashboard.html"><i class="fa-solid fa-cubes"></i></a>
+                  <h5>Dashboard</h5>
+                </div>
+
+               <div class="icon">
+                 <a href=""><i class="fa-solid fa-credit-card"></i></i></a>
+                 <h5>withdraw</h5>
+               </div>
+               <div class="icon">
+                  <a href="#"><i class="fa-solid fa-rocket"></i></a>
+                  <h5>Accelerate</h5>
+                </div>
+                <div class="icon">
+                   <a href="#"><i class="fa-solid fa-gifts"></i></a>
+                   <h5>Daily-coins</h5>
+                </div>
+                <div class="icon">
+                   <a href="#"><i class="fa-solid fa-toolbox"></i></a>
+                   <h5>Products</h5>
+                </div>
+                <div class="icon">
+                  <a href="#"><i class="fa-solid fa-gear"></i></a>
+                  <h5>Settings </h5>
+                </div>
+            </div>
+         </div>
+        
+
+                 <header class="M-Navigation">
         <div class="logo">
-            <img src="/img/logo.png" alt="" width="150px"  height="auto"/>
+            <img src="/img/logo.png" alt="" width="70px"  height="auto"/>
         </div>
         <nav class="header">
            
         
-       <div class="main-nave">
+       <div class="M-main-nave">
          <div class="profile">
             <div class="county">
-                <a href="#" >Cameroon</a>
+                <p >Cameroon</p>
             </div>
-            <div class="home-btn">
-                <a href="#" class="home" id="menu-btn"><i class="fa-solid fa-bars"></i></a>
-            </div>
-             <div class="home-notification">
-               <a href="#"><i class="fa-solid fa-bell"></i><p>3</p></a>
-            </div>
-            
             <img src="/img/team-3.jpg" alt="" class="dropbtn"  onclick="openProfile()"/>
           </div>
 
@@ -43,285 +93,154 @@
     </div>
        </div>
     </header>
-    <section class="side-bar">
-        <div class="side-bar-1">
-            <ul class="sidebar-menu-item" id="menu">
-                 <li><a href="#Home" id="home"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
-                <li><a href="#"><i class="fa-solid fa-box-tissue"></i></i>Products</a></li>
-                <li><a href="#"><i class="fa-solid fa-users"></i></i>Vendors</a></li>
-                
-                <li><a href="/HTML/profile.html"><i class="fa-solid fa-user"></i></i>Profile</a></li>
-            </ul>
-            <hr class="line">
-        </div>
-         <div class="side-bar-2">
-            <ul class="sidebar-menu-item">
-                <li> <a href="/HTML/user_dashboard.html"><i class="fa-solid fa-laptop"></i>Dashboard</a></li>
-                <li><a href="#"><i class="fa-solid fa-gift"></i>Courses</a></li>
-
-                 <li><a href="#"  class="btn-1"
-                onclick="document.getElementById('id01').style.display='block'" ><i class="fa-solid fa-users" >
-                </i></i>Withdraw</a></li>
-                <li><a href=""><i class="fa-solid fa-credit-card"></i></i>Payment</a></li>
-                 <li><a href="#"><i class="fa-solid fa-bullhorn"></i></i>Add  Adverts</a></li>
-                 <li><a href="#"><i class="fa-solid fa-bullhorn"></i></i>view Adverts</a></li>
-                <li><a href="#"><i class="fa-solid fa-gear"></i>Settings</a></li>
-            </ul>
-           
-            <hr class="line">
-         </div>
-          <div class="side-bar-3">
-            <div class="profile-side">
-                <img src="/img/team-3.jpg" alt="" width="50" height="auto">
-            </div>
-            <div class="user-name">
-                 <h2>Celina Vegas</h2>
-            </div>
-          </div>
-             <div class="referred">
-                <div class="people">
-                    <i class="fa-solid fa-users-line"></i>
-                </div>
-              <div class="referrals">
-                <h5>Users:</h5>
-                <span>220</span>
-              </div>
-            </div>
     </section>
 
-   
-
-<!=============================== Withdrawal form ================================>
-
-
- <div id="id01" class="modal">
-         <span onclick="document.getElementById('id01').style.display='none'" class="close"
-       title="Close Modal"><i class="bx bx-x"></i></span>
-      <section class="logIn">
-        <div class="form-container">
-             <div class="right-form">
-               <form action="" >
-                <div class="log-form">
-                    <div class="sub-log-form">
-                        <div class="form-title">
-                        <span>Withdrawal</span>
-                        <span>Choose wallet</span>
-                    </div>
-                    <hr class="line-1">
-
-                     <div class="withdraw-titles">
-                       <div class="wallets">
-                        <button class="wallet-1"><i class="fa-solid fa-wallet"></i> Affiliate</button>
-                        <button class="wallet-2"><i class="fa-solid fa-wallet"></i>Non-Affiliate</button>
-                       </div>
-                    </div>
-                    <div class="form-input">
-                        <div class="input-box">
-                            <input type="text" class="input-field" placeholder="Minimum Amount 5000XAF" name="Amount" />
-                        </div>
-
-                         <div class="input-box">
-                            <input type="password" class="input-field" placeholder="PIN" name="userPIN" />
-                        </div>
-
-                         <div class="input-box">
-                          <button class="input-submit-1" name="">
-                            <span>Withdraw</span>
-                          </button>
-                           <button class="input-submit-2" name="">
-                            <span  class="btn-1"
-                            onclick="document.getElementById('id01').style.display='none'">Cancel</span>
-                          </button>
-                        </div>
-                    </div>
-                </div>
-
-               </form>
-         
-            </div>
-                    </div>
-                    
-        </div>
+    <section class="menu-bar">
+      <div class="top-bar">
+  <div class="notification-bell">
+  <i class="fa fa-bell"></i>
+  <span class="notification-dot"></span>
+</div>
+  <div class="menu-icon">
+    <i class="fa fa-bars" id="M-menu-btn"></i>
+  </div>
+</div>
     </section>
 
-     </div>
+    <section class="greetings">
+    <div class="greeting">
+        <h2>Hi SMADEY</h2>
+        <p>🙋‍♂️ Welcome to your Dashboard </p>
+    </div>
+</section>
+    
+<section class="Mobile-boxes">
+  <div class="Mobile-box-1">
+     <h2>Wallets 💶</h2>
+     <hr>
+    <div class="wallets-1">
+      <h3>30,000 <span>XFA</span></h3>
+      <p>Affiliate</p>
+    </div>
+    <div class="wallets-2">
+      <h3>30,000 <span>XFA</span></h3>
+      <p>Non-Affiliate</p>
+    </div>
+  </div>
 
-     <!=============================== the main body of the admin-dashboard ================================> 
+   <div class="Mobile-box-2">
+     <h2>Income 💵</h2>
+     <hr>
+    <div class="wallets-1">
+      <h3>30,000 <span>XFA</span></h3>
+      <p>Affiliate</p>
+    </div>
+    <div class="wallets-2">
+      <h3>30,000 <span>XFA</span></h3>
+      <p>Non-Affiliate</p>
+    </div>
+  </div>
 
-     <section class="main-box-1">
-     
-       <div class="container">
-         <h2>Hi Sir Abe Pride</h2>
-        <p><em>Welcome to your dashboard</em></p>
-         <div class="container-2-1">
-           <div class="wallet-auto">
-                <div class="wallet-icon">
-                    <i class="fa-solid fa-wallet"></i>
-                </div>
-            <!============================== total amount to be paid for the non affiliate wallets +============================================>
-                <div class="wallet-details">
-                    <h4>Non-Affiliate wallet</h4>
-                   <p>59000 <span>XAF</span></p>
-                </div>
-            </div>
-          <div class="wallet-auto">
-                <div class="wallet-icon-2">
-                    <i class="fa-solid fa-wallet"></i>
-                </div>
-        <!============================== total amounts  to be paid for the affiliate wallet (for all users) +============================================>
-                <div class="wallet-details">
-                    <h4> Affiliate wallet</h4>
-                   <p>60000 <span>XAF</span></p>
-                </div>
-            </div>
+    <div class="Mobile-box-3">
+     <h2>Others 🤔</h2>
+     <hr>
+    <div class="wallets-1">
+      <h3>Users</h3>
+      <p>700</p>
+    </div>
+    <div class="wallets-2">
+      <h3>Invoices</h3>
+      <p>15</p>
+    </div>
+  </div>
 
-                <div class="wallet-auto">
-                <div class="wallet-icon-3">
-                    <i class="fa-solid fa-people-line"></i>
-                </div>
-                <div class="wallet-details">
-                    <h4> Total Users</h4>
-                   <p>700 <span>People</span></p>
-                </div>
-            </div>
-
-              <div class="wallet-auto">
-                <div class="wallet-icon-4">
-                   <i class="fa-solid fa-gift"></i>
-                </div>
-                <div class="wallet-details">
-                    <h4>Total Invoice</h4>
-                   <p> 92 </p>
-                </div>
-            </div>
-
-           <div class="wallet-auto">
-                <div class="wallet-icon-5">
-                    <i class="fa-solid fa-boxes-packing"></i>
-                </div>
-                <!============================== total amount that has come in and gone out +============================================>
-                <div class="wallet-details">
-                    <h4> Total Income </h4>
-                   <p>300000</p>
-                </div>
-            </div>
-
-             <div class="wallet-auto">
-                <div class="wallet-icon-6">
-                   <i class="fa-solid fa-briefcase"></i>
-                </div>
-                <!============================== Total income gained from the system +============================================>
-                <div class="wallet-details">
-                    <h4>Total Income Earned</h4>
-                   <p> 70000 </p>
-                </div>
-            </div>
-
-
-        </div>
-     </div>
-       </div>
 </section>
 
-  <section class="main-box-2">
-   <!============================== All vendors Available on the platform +============================================>  
-       <div class="container-2">
-        <div class="contaner-2-1">
-            <h2>Vendors</h2>
-        </div>
-         <div class="container-2-2">
-           <div class="wallet-auto-2">
-                <div class="wallet-icon">
-                    <img src="/img/vendor-1.jpg" alt="" width="100px" height="auto"/>
-                </div>
-                <div class="wallet-details">
-                  <h4> Coach Afanyu </h4>
-                   <p><a href="#">+250 798 971 739 </a></p>
-                </div>
-            </div>
-          <div class="wallet-auto-2">
-                <div class="wallet-icon">
-                     <img src="/img/vendor-2.jpg" alt="" width="100px" height="auto"/>
-                </div>
-                <div class="wallet-details">
-                    <h4> Coach Gillian </h4>
-                   <p><a href="#">+250 798 971 739 </a></p>
-                </div>
-            </div>
-              <div class="wallet-auto-2">
-                <div class="wallet-icon">
-                     <img src="/img/vendor-3.jpg" alt="" width="100px" height="auto"/>
-                </div>
-                <div class="wallet-details">
-                   <h4> Coach Pride </h4>
-                   <p><a href="#">+250 798 971 739 </a></p>
-                </div>
-            </div>
-            
-             <div class="wallet-auto-2">
-                <div class="wallet-icon">
-                     <img src="/img/vendor-4.jpg" alt="" width="100px" height="auto"/>
-                </div>
-                <div class="wallet-details">
-                   <h4> Coach Huston </h4>
-                   <p><a href="#">+250 798 971 739 </a></p>
-                </div>
-            </div>
-        </div>
-     </div>
-       </div>
-</section>
+ <section class="Mobile-box-auto">
+    <h2>Other Navigation's</h2>
+      <hr>
+    <div class="main-box-auto-1">
+       <div class="icons">
+         <i class="fa-brands fa-product-hunt"></i>
+          <p>product</p>
+      </div>
+      <div class="icons">
+      <a href="#"><i class="fa-solid fa-cart-plus"></i></a>
+       <p>Advert</p>
+    </div>
+      <div class="icons">
+       <a href="/HTML/vendors-messages.html"> <i class="fa-solid fa-envelope-open-text"></i></a>
+       <p>Massage</p>
+    </div>
+      <div class="icons">
+       <a href="/HTML/vendors-messages.html"> <i class="fa-solid fa-comments"></i></a>
+       <p>Comment</p>
+    </div>
+      <div class="icons">
+       <a href="#"> <i class="fa-solid fa-truck-fast"></i></a>
+         <p>Jobs opp</p>
+    </div>
+      <div class="icons">
+       <a href="/HTML/activate-user-account.html"> <i class="fa-solid fa-user"></i></a>
+        <p>Register</p>
+    </div>
+    </div>
+ </section>
 
-</section>
-<section class="mobile-screens">
-  <section class="side-bar">
-        <div class="side-bar-1">
-           <div class="dashboard">
-           </div>
-            <ul class="sidebar-menu-item" id="menu">
-                 <li><a href="#Home" id="home"><i class="fa-solid fa-house-chimney"></i>Home</a></li>
-                <li><a href="#"><i class="fa-solid fa-box-tissue"></i></i>Products</a></li>
-                <li><a href="#"><i class="fa-solid fa-users"></i></i>Vendors</a></li>
-                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i>Buy</a></li>
-                >
-              
-            </ul>
-            <hr class="line">
-        </div>
-         <div class="side-bar-2">
-            <ul class="sidebar-menu-item">
-                 <li> <a href=""><i class="fa-solid fa-laptop"></i>Dashboard</a></li>
-                <li><a href="#"><i class="fa-solid fa-gift"></i>Courses</a></li>
-                 <li><a href="#"  ><i class="fa-solid fa-users" >
-                </i></i>Withdraw</a></li>
-                <li><a href="/HTML/profile.html"><i class="fa-solid fa-user"></i></i>Profile</a></li>
-                 <li><a href="#"><i class="fa-solid fa-bullhorn"></i></i>Daily-Task</a></li>
-                  <li><a href="#"><i class="fa-solid fa-bullhorn"></i></i>S post</a></li>
-                   <li><a href="#"><i class="fa-solid fa-bullhorn"></i></i>Sale Product</a></li>
-                <li><a href="#"><i class="fa-solid fa-dice"></i></i>Games</a></li>
-                <li><a href="#"><i class="fa-solid fa-gear"></i>Settings</a></li>
-            </ul>
-           
-            <hr class="line">
-         </div>
-          <div class="side-bar-3">
-            <div class="profile-side">
-                <img src="/img/team-3.jpg" alt="" width="50" height="auto">
-            </div>
-            <div class="user-name">
-                 <h2>Celina Vegas</h2>
-            </div>
-          </div>
-             <div class="referred">
-                <div class="people">
-                    <i class="fa-solid fa-users-line"></i>
-                </div>
-              <div class="referrals">
-                <h5>Referrals:</h5>
-                <span>2</span>
-              </div>
-            </div>
-    </section>
+
+<div class="table-of-recent-transaction">
+  <h3>Recent Transactions</h3>
+  <hr >
+  <div class="recent-transaction-boxes">
+    <div class="H-box-1">
+      <h6>Coins Bonus 🪙</h6>
+      <span>06-15-2024</span>
+    </div>
+    <div class="H-box-2">
+      <h6>200 <span>AC</span></h6>
+      <p>ID: D-2</p>
+      <span>Success</span>
+    </div>
+  </div>
+
+  <div class="recent-transaction-boxes">
+    <div class="H-box-1">
+      <h6>Coins Bonus 🪙</h6>
+      <span>06-15-2024</span>
+    </div>
+    <div class="H-box-2">
+      <h6>200 <span>AC</span></h6>
+      <p>ID: D-2</p>
+      <span>Success</span>
+    </div>
+  </div>
+
+  <div class="recent-transaction-boxes">
+    <div class="H-box-1">
+      <h6>Coins Bonus 🪙</h6>
+      <span>06-15-2024</span>
+    </div>
+    <div class="H-box-2">
+      <h6>200 <span>AC</span></h6>
+      <p>ID: D-2</p>
+      <span>Success</span>
+    </div>
+  </div>
+
+  <div class="recent-transaction-boxes">
+    <div class="H-box-1">
+      <h6>Coins Bonus 🪙</h6>
+      <span>06-15-2024</span>
+    </div>
+    <div class="H-box-2">
+      <h6>200 <span>AC</span></h6>
+      <p>ID: D-2</p>
+      <span>Success</span>
+    </div>
+  </div>
+
+
+</div>
 
 </section>
 

@@ -1,0 +1,212 @@
+.vendor-details{
+  margin-top: 2rem; 
+   margin-left: 1rem;margin-right: 1rem;margin-bottom: 2rem;
+   position: relative;
+}
+
+.information{
+     box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    height: auto;
+    padding-bottom: 0.2rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.information h3{
+    font-size: 1.2rem;
+    color: #0b132b;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.information p{
+    text-align: center;
+    padding-top: 2rem;
+    color: #0b132b;
+}
+.information p span{
+    color: #ff5600;
+}
+
+.vendor-profile{
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+    margin-bottom: .7rem ;margin-top: 2rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.vendor-profile,.vendor-profile h5:hover {
+  background-color: #0b132b;
+  color: #fff;
+  overflow-x:  hidden;
+
+}
+.vendor-profile h5{
+    padding-top: 1.8rem;
+}
+
+
+
+.vendor-profile img{
+    border-radius:  50%;
+    /*-webkit-border-radius:;
+    -moz-border-radius:  50%;
+    -ms-border-radius:  50%;
+    -o-border-radius:  50%;
+    */:;
+    -webkit-border-radius:  50%;
+}
+.account, .account-1{
+     display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+    margin: .7rem auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.account i, .account-1 i {
+    font-size: 24px;
+    line-height: 60px;
+    background-color: #0b132b;
+    color: #fff;
+    border-radius: 45%;
+    padding: 0 1rem ;
+    -webkit-border-radius: 45%;
+    -moz-border-radius: 45%;
+    -ms-border-radius: 45%;
+    -o-border-radius: 45%;
+}
+.account h5, .account-1 h5{
+    padding-top: 1.2rem;
+}
+.account:hover, .account-1:hover{
+    background-color: #0b132b;
+    color:  #fff;
+    overflow-x: hidden;
+}
+
+.account span, .account-1 span{
+    color: #ff5600;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.account-1{
+    margin-bottom: 1rem;
+}
+
+.account-2{
+    margin-bottom: 1rem;
+}
+.account-2 span{
+    margin-bottom: 2rem;
+    color: #000fff;
+    margin-left: 10px;
+}
+.account-2 p{
+    margin-bottom: 10px;
+    color: #0b132b;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.account-2 p span{
+    color: #ff5600;
+}
+
+.table-of-recent-transaction{
+     margin-top: 0.5rem; 
+   margin-left: 1rem;margin-right: 1rem;margin-bottom: 2rem;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+    padding-bottom: 0.2rem;
+    background-color: #0b132b;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.table-of-recent-transaction h3{
+    color: #fff;
+    margin-left: 5px;
+}
+
+.table-of-history h3{
+     font-size: 1.2rem;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.recent-transaction-boxes{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.2rem 0.8rem;
+    background-color: #cccccc3e;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.H-box-1 h6{
+    color: #fff;
+}
+.H-box-1 span{
+    color: greenyellow;
+}
+.H-box-2 h6{
+    color: #fff;
+}
+.H-box-2 h6 span{
+    color: #ff5600;
+    text-decoration: line-through;
+}
+.H-box-2 p{
+    color: #fff;
+}
+.H-box-2 span {
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

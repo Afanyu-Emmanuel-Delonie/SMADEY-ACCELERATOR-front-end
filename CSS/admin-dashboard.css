@@ -1,16 +1,20 @@
 /*======================================== the first blog section on the admins page =========================================*/
-.main-box-2{
+
+.main-box-2{.wallet-details
     margin-left: auto;margin-right: auto;  
     justify-content: center;
    margin-left: 25rem;
    margin-top: 5rem;
    margin-bottom: 2rem;
+ 
 }
 
 .container-2-1{
      display: grid;
      grid-template-columns:  repeat(3, 1fr);
      gap: 1rem;  
+     position: relative;
+     margin-left: -3rem;
     padding-right: 1rem;
 }
 
@@ -20,7 +24,6 @@
   padding: 12px 0px;
   width: 352px;
   height: 80px;
-  background: #FFFFFFFF;
   border-radius: 4px;
   box-shadow: 0px 4px 9px #acadaf, 0px 0px 2px #171a1f;
   margin-bottom: 1rem;
@@ -32,14 +35,16 @@
 
 
 
-.container-2-1 .wallet-auto{
+.container-2-1 .wallet-auto-1-1{
   display: flex;
+   background-image:url(/img/money-details-bg.jpg);
+   background-position: bottom left;
+   object-fit: cover;
   gap: 32px;
   align-items: center;
   padding: 12px 0px;
   width: 360px;
   height: 105px;
-  background: #FFFFFFFF;
   border-radius: 4px;
   box-shadow: 0px 4px 9px #acadaf, 0px 0px 2px #787b82;
   margin-bottom: 3rem;
@@ -49,7 +54,7 @@
   -o-border-radius:;
 }
 
-.wallet-auto .wallet-icon {
+.wallet-auto-1-1 .wallet-icon {
   width: 48px;
   height: 105px;
   padding: 12px 10px;
@@ -63,7 +68,7 @@
   -ms-border-radius:;
   -o-border-radius:;
 }
-.wallet-auto .wallet-icon i {
+.wallet-auto-1-1 .wallet-icon i {
     color: #fff;
     justify-content: center;
     align-items: center;
@@ -71,7 +76,7 @@
     margin-top: 2rem;
 }
 
-.wallet-auto .wallet-icon-2 {
+.wallet-auto-1-1  .wallet-icon-2 {
   width: 48px;
   height: 105px;
   padding: 12px 10px;
@@ -85,14 +90,14 @@
   -ms-border-radius:;
   -o-border-radius:;
 }
-.wallet-auto .wallet-icon-2 i {
+.wallet-auto-1-1  .wallet-icon-2 i {
     color: #fff;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
     margin-top: 2rem;
 }
-.wallet-auto .wallet-icon-3 {
+.wallet-auto-1-1  .wallet-icon-3 {
   width: 48px;
   height: 105px;
   padding: 12px 10px;
@@ -101,19 +106,19 @@
   border-radius: 4px 0px 0px 4px;
   align-items: center;
   font-size: 2rem;
-  -webkit-border-radius: 4px 0px 0px 4px;
-  -moz-border-radius: 4px 0px 0px 4px;
-  -ms-border-radius: 4px 0px 0px 4px;
-  -o-border-radius: 4px 0px 0px 4px;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
 }
-.wallet-auto .wallet-icon-3 i {
+.wallet-auto-1-1  .wallet-icon-3 i {
     color: #fff;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
     margin-top: 2rem;
 }
-.wallet-auto .wallet-icon-4 {
+.wallet-auto-1-1  .wallet-icon-4 {
   width: 48px;
   height: 105px;
   padding: 12px 10px;
@@ -122,12 +127,12 @@
   border-radius: 4px 0px 0px 4px;
   align-items: center;
   font-size: 2rem;
-  -webkit-border-radius: 4px 0px 0px 4px;
-  -moz-border-radius: 4px 0px 0px 4px;
-  -ms-border-radius: 4px 0px 0px 4px;
-  -o-border-radius: 4px 0px 0px 4px;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
 }
-.wallet-auto .wallet-icon-4 i {
+.wallet-auto-1-1  .wallet-icon-4 i {
     color: #fff;
     justify-content: center;
     align-items: center;
@@ -135,7 +140,7 @@
     margin-top: 2rem;
 }
 
-.wallet-auto .wallet-icon-5 {
+.wallet-auto-1-1  .wallet-icon-5 {
   width: 48px;
   height: 105px;
   padding: 12px 10px;
@@ -149,7 +154,7 @@
   -ms-border-radius: 4px 0px 0px 4px;
   -o-border-radius: 4px 0px 0px 4px;
 }
-.wallet-auto .wallet-icon-5 i {
+.wallet-auto-1-1  .wallet-icon-5 i {
     color: #fff;
     justify-content: center;
     align-items: center;
@@ -157,7 +162,7 @@
     margin-top: 2rem;
 }
 
-.wallet-auto .wallet-icon-6 {
+.wallet-auto-1-1  .wallet-icon-6 {
   width: 48px;
   height: 105px;
   padding: 12px 10px;
@@ -166,27 +171,35 @@
   border-radius: 4px 0px 0px 4px;
   align-items: center;
   font-size: 2rem;
-  -webkit-border-radius: 4px 0px 0px 4px;
-  -moz-border-radius: 4px 0px 0px 4px;
-  -ms-border-radius: 4px 0px 0px 4px;
-  -o-border-radius: 4px 0px 0px 4px;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
 }
-.wallet-auto .wallet-icon-6 i {
+.wallet-auto-1-1  .wallet-icon-6 i {
     color: #fff;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
     margin-top: 2rem;
 }
+.wallet-auto-1-1 .wallet-details h4 {
+    padding-top: 1.3rem;
+    color: #fff;
+}
 
+.wallet-auto-1-1 .wallet-details p{
+    color: #fff;
+}
 /*======================================== vendors =========================================*/
 .container-2{
     display: inline-block;
-     backdrop-filter: blur(2px);
-     border:  1px solid #EAECEE;
+     backdrop-filter: blur(4px);
+     border:  2px solid #ff5900;
      box-shadow: 0px 4px 9px #515355, 0px 0px 2px #77787a;
-     padding: 1rem 7rem ;
-     width: 80%;
+     padding: 1rem 5rem ;
+        width: 65rem;
+        margin-right: 1.5rem;
      border-radius:20px ;
      -webkit-border-radius:20px ;
      -moz-border-radius:20px ;
@@ -206,18 +219,20 @@
 .container-2-2{
      display: grid;
      grid-template-columns:  repeat(3, 1fr);
-     gap: 1rem;    
+     gap: 1rem; 
+    margin-left: -1rem;
 }
 
 
 .container-2-2 .wallet-auto-2{
   display: flex;
   gap: 1rem;
+  position: relative;
   align-items: center;
   padding: 12px 0px;
   width: 360px;
   height: 105px;
-  background: #FFFFFFFF;
+  background-image:url(/img/home\ background.jpg);
   border-radius: 4px;
   box-shadow: 0px 4px 9px #acadaf, 0px 0px 2px #787b82;
   margin-bottom: 3rem;
@@ -237,14 +252,14 @@
     -o-border-radius: 50%;
 }
 .wallet-auto-2 .wallet-details h4{
-    color: #0d3b66;
+    color: #fff;
     padding-bottom: 10px;
     font-size:  20px;
     text-align: center;
 }
 
 .wallet-auto-2 .wallet-details p a{
-    color: #6c757d;
+    color: #fff;
     padding-bottom: 10px;
     font-size:  18px;
     text-align: center;

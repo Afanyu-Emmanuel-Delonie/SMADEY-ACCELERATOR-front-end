@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(91, 91, 244);
+
+    
+}
+.detel{
+	margin-left: 20%;
+	margin-top: 15%;
+}
+.detel h1{
+	font-size: 43px;
+	color: #212121;
+	margin-bottom: 20px;
+}
+span{
+	color: orange;
+    font-size: 43px;
+}
+.detel p{
+	color: white;
+    line-height: 22px;
+    font-size: 23px;
+}
+.detel a{
+	background: #212121;
+	padding: 10px 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	display: inline-block;
+	margin: 30px 0;
+	border-radius: 5px;
+    box-shadow: #212121;
+}
+.detel a:hover{
+    color: black;
+    background-color: aquamarine;
+    transition: 1s;
+    
+}
+
+.image{
+	width: 46%;
+	height: 80%;
+	position: absolute;
+	bottom: 0;
+	right: 100px;
+}

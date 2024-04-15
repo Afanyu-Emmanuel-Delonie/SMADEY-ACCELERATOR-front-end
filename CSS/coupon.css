@@ -1,0 +1,128 @@
+
+.coupon{
+    padding-top: 5rem;
+    width: 100%;
+    box-shadow: 2px #fff #000;
+    align-items: center;
+    background-position: bottom left;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/img/R.jpeg);
+}
+
+.coupon h1{
+    font-size: 2rem;
+    color: #000fff;
+    margin-bottom: 14px;
+}
+.coupon p{
+    color: #fff ;
+    font-size: 1.1rem;
+    margin-bottom: 14px;
+    padding: 5px;
+}
+.coupon .warning{
+    color: red;
+}
+
+.coupon span{
+    font-size: 1rem;
+    color: #ff5600;
+    margin-bottom: 5rem;
+}
+
+.coupon hr{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 18px;
+    color: #ccc;
+}
+
+.coupon-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.coupon-box{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    background-image: url(/img/home\ background.jpg);
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.coupon-sect{
+    display: flex;
+    margin: 1.1rem;
+    gap: 10px;
+}
+
+.coupon-sect img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.coupon-sect h4{
+    color: #fff;
+    padding-top: 2rem;
+    font-size: 18px;
+}
+
+.coupon-details{
+    margin-right: 1rem;
+    margin-top: 3.2rem;
+}
+
+.coupon-details a{
+    background-color: #ff5600;
+    color:#fff;
+    border: 2px solid #ccc;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    /*-webkit-border-radius:;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+     */
+    -webkit-border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+
+    .coupon-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-right: 1rem;
+    margin-right: 1rem;
+}
+.coupon-box{
+    width: 90%;
+}
+
+
+}
+
+
+
+

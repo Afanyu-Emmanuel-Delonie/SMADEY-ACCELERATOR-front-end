@@ -99,15 +99,15 @@
 .top-bar {
   margin-top: 5rem;
   display: flex;
-  margin-left: -1rem;
+  margin-left: 5px;
   justify-content: space-between;
   align-items: center;
   background-color: #c1dbf5;
   color: #fff;
   padding: 10px;
-  width: 18rem;
+  width: 90%;
   justify-self: center;
-  margin-left: 3rem;
+
   padding: 4px 10px;
   border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -187,7 +187,7 @@
     -moz-transition: 1s;
     -ms-transition: 1s;
     -o-transition: 1s;
-     */:;
+     */
     -webkit-transition: 1s;
 }
 .M-side-bar.active{
@@ -265,10 +265,10 @@
     object-fit: cover;
     background-position:bottom left;
     border-radius: 10px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 .Mobile-box-2 h2 {
     color: #ffffff;
@@ -350,10 +350,10 @@
      gap: 0.3rem;
      padding: 10px;
      border-radius: 15px;
-     -webkit-border-radius:;
-     -moz-border-radius:;
-     -ms-border-radius:;
-     -o-border-radius:;
+     -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+     -ms-border-radius: 15px;
+     -o-border-radius: 15px;
 }
 .Mobile-box-auto h2{
     color:  #ffffff;

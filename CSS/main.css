@@ -9,15 +9,21 @@
     text-decoration: none;
 }
 
+
 :root{
-  --nav-color:#ffd6e0;
-  --white:#FFFFFFFF;
-  --blue-black:#0d3b66;
-  --grey: #ddd;
-  --main:#000fff;
-  --second-main:#ff5900;
-  --back-ground:#03071e;
+    --main-color:  #000fff;
+    --text-color: #001d3d;
+    --second-color: #000fff;/* for the top most navigation bar */
+    --third-color:#ebf2fa;/* for the second most navigation bar */
+    --dark-color:#14213d;
+    --btn-primary: #ff5600 ;
+    --btn-secondary:#003566;
+    --primary:#e9ecef; /*light background colors*/
+    --grey-color:#e9ecef;
+    --footer:#1d3557;
 }
+
+
 body{
    background-color:  #caf0f870;
 }
@@ -206,10 +212,10 @@ z-index:  3;
   background-color: red;
   padding: 5px 10px;
   border-radius: 10px;
-  -webkit-border-radius:;
-  -moz-border-radius:;
-  -ms-border-radius:;
-  -o-border-radius:;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .home-dark-mood{

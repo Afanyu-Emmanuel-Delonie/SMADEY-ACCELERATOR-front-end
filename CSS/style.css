@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(91, 91, 244);
+    background-color: #fff;
 
     
 }
@@ -30,7 +30,11 @@ span{
 	display: inline-block;
 	margin: 30px 0;
 	border-radius: 5px;
-    box-shadow: #212121;
+	box-shadow: #212121;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
 }
 .detel a:hover{
     color: black;
@@ -45,4 +49,226 @@ span{
 	position: absolute;
 	bottom: 0;
 	right: 100px;
+}
+
+
+
+/* FAQ section */
+.faq-section {
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.Faq-container h2{
+  text-align: center;
+  color: #000fff;
+  font-size: 40px;
+}
+
+.Faq-container p{
+  text-align: center;
+  color: #051923;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.faq-container {
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.dropdown-btn {
+  background-color: #20a9e9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+
+
+
+.dropdown-content {
+  display: none;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.dropdown-content p {
+  margin: 0;
+}
+
+.dropdown-btn:hover {
+  background-color: #0056b3;
+}
+
+.toggle-btn {
+  float: right;
+  font-weight: bold;
+}
+
+.show {
+  display: block;
+}
+
+
+
+/* ==================================================== Testimonials ===================================================*/
+
+.Testimonials{
+	background-color: #f8f9fa;
+	margin-top: 3rem;
+}
+.Testimonials h1{
+	text-align: center;
+	
+	color: #000fff;
+	font-size: 2.5rem;
+}
+.Testimonials p{
+	text-align: center;
+	font-size: 18px;
+	color: #051923;
+	padding-bottom: 4rem;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  /* background: #f1f1f1f1; */
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.mySlides img{
+	width: 150px;
+	height: 150px;
+	border: 3px solid #ff5600;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+
+.mySlides h4{
+	color: #000fff;
+}
+
+.mySlides span{
+	font-size: 16px;
+	text-align: center;
+}
+
+.mySlides p{
+	color:#0a1128;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  -ms-border-radius: 0 3px 3px 0;
+  -o-border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  -ms-border-radius: 3px 0 0 3px;
+  -o-border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(35, 61, 178, 0.534);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    /* background: #ddd; */
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  -webkit-transition: background-color 0.6s ease;
+  -moz-transition: background-color 0.6s ease;
+  -ms-transition: background-color 0.6s ease;
+  -o-transition: background-color 0.6s ease;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+
+footer {
+  background-color: #051923;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+ 
 }

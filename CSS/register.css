@@ -554,7 +554,7 @@ input[type="checkbox"]:checked {
     }
 
     .container form .user-details{
-        max-height: 300px;
+        max-height: 350px;
         overflow-y: scroll;
         
     }
@@ -562,12 +562,12 @@ input[type="checkbox"]:checked {
         width: 0;
     }
 
-    
+/*     
     .login-container form .login-user-details{
         max-height: 300px;
         overflow-y: scroll;
         
-    }
+    } */
     .login-user-details::-webkit-scrollbar{
         width: 0;
     }

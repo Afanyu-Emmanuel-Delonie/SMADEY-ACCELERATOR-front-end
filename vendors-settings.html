@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Vendors Settings | SMADEY </title>
+    <meta name="smadey-vendor-settings" content="smadey vendor settings">
+    <link rel="stylesheet" href="/CSS/admin-dashboard.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS//media-query.css">
+    <link rel="icon" href="/img/wallpapper.jpg">
+    <link rel="stylesheet" href="/CSS/vendors-media-query.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <div class="larger-divice">
+    
+  </div>
+    
+  <section class="mobile-screens">
+
+  <section class="M-side-bar">
+        <div class="M-side-bar-1">
+           <div class="M-sidebar-menu-item">
+                <div class="icon">
+                  <a href="home.html"><i class="fa-solid fa-house-chimney"></i></a>
+                  <h5>Home</h5>
+                </div>
+
+                 <div class="icon">
+                  <a href="user_dashboard.html"><i class="fa-solid fa-cubes"></i></a>
+                  <h5>Dashboard</h5>
+                </div>
+
+               <div class="icon">
+                 <a href="withdrawal.html"><i class="fa-solid fa-credit-card"></i></i></a>
+                 <h5>withdraw</h5>
+               </div>
+               <div class="icon">
+                  <a href="accelerate.html"><i class="fa-solid fa-rocket"></i></a>
+                  <h5>Accelerate</h5>
+                </div>
+                <div class="icon">
+                   <a href="daily-task.html"><i class="fa-solid fa-gifts"></i></a>
+                   <h5>Daily-coins</h5>
+                </div>
+                <div class="icon">
+                   <a href="#"><i class="fa-solid fa-toolbox"></i></a>
+                   <h5>Products</h5>
+                </div>
+                <div class="icon">
+                  <a href="settings.html"><i class="fa-solid fa-gear"></i></a>
+                  <h5>Settings </h5>
+                </div>
+            </div>
+         </div>
+        
+
+                 <header class="M-Navigation">
+        <div class="logo">
+            <img src="/img/logo.png" alt="" width="70px"  height="auto"/>
+        </div>
+        <nav class="header">
+           
+        
+       <div class="M-main-nave">
+         <div class="profile">
+            <div class="county">
+                 <p >Cameroon 🇨🇲</p>
+            </div>
+            <img src="/img/team-3.jpg" alt="" class="dropbtn"  onclick="openProfile()"/>
+          </div>
+
+          <div class="dropdown-content" id="myDropdown">
+      <a href="#"><i class="fa-solid fa-pen-to-square"></i>Profile</a>
+      <a href="#"><i class="fa-solid fa-money-check-dollar"></i>Bank Details</a>
+      <a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i>Log Out </a>
+    </div>
+       </div>
+    </header>
+    </section>
+
+    <section class="menu-bar">
+      <div class="top-bar">
+  <div class="notification-bell">
+  <i class="fa fa-bell"></i>
+  <span class="notification-dot"></span>
+</div>
+  <div class="menu-icon">
+    <i class="fa fa-bars" id="M-menu-btn"></i>
+  </div>
+</div>
+    </section>
+    
+
+
+<section class="greetings">
+    <div class="greeting">
+        <h2>Hi Coach Afanyu</h2>
+        <p>🙋‍♂️ Welcome to the Daily task page page </p>
+    </div>
+
+    <div class="daily-task-info">
+        <p>
+            on this page you will have to register the new fa-tasks
+            so that the users can access
+        </p>
+    </div>
+</section>
+    <section class="daily-task">
+        <h3>Edit Profile</h3>
+        <hr>
+        <div class="daily-task-container">
+            <div class="daily-task-box-1">
+                <form action="" class="profile-setting">
+
+                    <label for="name" class="Name">User Name:</label><br>
+                    <input type="text" name="name" placeholder="User Name" required /><br>
+                     <label for="Email" class="Email">Email:</label><br>
+                    <input type="email" name="email" placeholder="Email" required/><br>
+                    <div class="country-select">
+  <label for="country">Country:</label><br>
+  <select name="country" id="country">
+    <option value="cameroon">Cameroon</option>
+    <option value="nigeria">Nigeria</option>
+    <option value="ghana">Ghana</option>
+    <option value="rwanda">Rwanda</option>
+  </select><br>
+</div>
+                     <label for="name" class="Password">Enter Password:</label><br>
+                    <input type="Password" name="name" placeholder="Enter  Password" required/><br>
+                      <label for="name" class="Password">Confirm Password:</label><br>
+                    <input type="Password" name="name" placeholder="Confirm Password" required/><br>
+                    <input type="file" class="custom-file-input">
+                    <button class="submit-task">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+        <section class="daily-task">
+        <h3>Bank Details </h3>
+        <hr>
+        <div class="daily-task-container">
+            <div class="daily-task-box-1">
+                <form action="" class="profile-setting">
+
+                    <label for="name" class="Name">Account  Name:</label><br>
+                    <input type="text" name="name" placeholder="Account Name" required /><br>
+                     <label for="name" class="Password">Enter PIN:</label><br>
+                    <input type="Password" name="name" placeholder="Enter  PIN" required/><br>
+                      <label for="name" class="Password">Confirm PIN:</label><br>
+                    <input type="Password" name="name" placeholder="Confirm PIN" required/><br>
+                   <label for="name" class="Password">account Number:</label><br>
+                    <input type="Password" name="name" placeholder="+237 673 993 085" required/><br>
+                   <label for="name" class="Password">Account Type:</label><br>
+                    <input type="Password" name="name" placeholder="MTN Cameroon" required/><br>
+                    <button class="submit-task">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+  </section>
+         
+        
+
+    <script src="/JS/main.js"></script>
+</body>
+</html>

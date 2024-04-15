@@ -1,6 +1,10 @@
 @media(min-width: 430){
     
 }
+body{
+    margin-left: 8px;
+    margin-right: 10px;
+}
 
     .daily-task{
     display: grid;
@@ -10,7 +14,7 @@
     margin-top: 17rem;
     margin-left: 30rem;
     background-color: #0b132b;
-    width: 45%;
+    width: 35%;
     padding: 1rem 0;
 }
 
@@ -46,6 +50,12 @@
     text-align: center;
     padding: 0.7rem auto;
     margin-bottom: 1rem;
+}
+
+.daily-task-details img{
+    width: 100%;
+    position: relative;
+    height: auto;
 }
 
 .daily-task-details .price{

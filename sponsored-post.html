@@ -3,27 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Accelerate | SMADEY </title>
-    <meta name="smadey-accelerate" content="smadey sponsored post or accelerate">
-    <link rel="stylesheet" href="/CSS/main.css">
-    <link rel="stylesheet" href="/CSS/media-query.css">
+    <title> Register Task | SMADEY</title>
+    <meta name="smadey-Register" content=" Registration form ">
     <link rel="stylesheet" href="/CSS/admin-dashboard.css">
-    <link rel="stylesheet" href="/CSS/user-dashboard.css">
+    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" href="/CSS//media-query.css">
+    <link rel="icon" href="/img/wallpapper.jpg">
     <link rel="stylesheet" href="/CSS/vendors-media-query.css">
-    <link rel="stylesheet" href="/CSS/user-daily-task.css">
-    <link rel="stylesheet" href="/CSS/user-task.css">
-   <link rel="icon" href="/img/wallpapper.jpg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" 
     referrerpolicy="no-referrer" />
 </head>
 <body>
-
     
   <section class="mobile-screens">
 
   <section class="M-side-bar">
         <div class="M-side-bar-1">
-            <div class="M-sidebar-menu-item">
+              <div class="M-sidebar-menu-item">
                 <div class="icon">
                   <a href="home.html"><i class="fa-solid fa-house-chimney"></i></a>
                   <h5>Home</h5>
@@ -39,19 +35,30 @@
                  <h5>withdraw</h5>
                </div>
                <div class="icon">
-                  <a href="accelerate.html"><i class="fa-solid fa-rocket"></i></a>
+                  <a href="accelerate.html" ><i class="fa-solid fa-rocket"></i></a>
                   <h5>Accelerate</h5>
                 </div>
                 <div class="icon">
-                   <a href="user_daily-task.html"><i class="fa-solid fa-gifts"></i></a>
+                   <a href="daily-task.html"><i class="fa-solid fa-gifts"></i></a>
                    <h5>Daily-coins</h5>
                 </div>
+
+                  <div class="icon">
+                   <a href="daily-task.html"><i class="fa-solid fa-clipboard"></i></a>
+                   <h5>Daily-Task</h5>
+                </div>
+
+                <div class="icon">
+                   <a href="sponsored-post.html"><i class="fa-regular fa-clipboard"></i></i></a>
+                   <h5>S-Post</h5>
+                </div>
+                
                 <div class="icon">
                    <a href="#"><i class="fa-solid fa-toolbox"></i></a>
                    <h5>Products</h5>
                 </div>
                 <div class="icon">
-                  <a href="user-settings.html"><i class="fa-solid fa-gear"></i></a>
+                  <a href="settings.html"><i class="fa-solid fa-gear"></i></a>
                   <h5>Settings </h5>
                 </div>
             </div>
@@ -68,7 +75,7 @@
        <div class="M-main-nave">
          <div class="profile">
             <div class="county">
-                 <p >Cameroon 🇨🇲</p>
+                <p >Cameroon 🇨🇲</p>
             </div>
             <img src="/img/team-3.jpg" alt="" class="dropbtn"  onclick="openProfile()"/>
           </div>
@@ -98,7 +105,7 @@
 
 <section class="greetings">
     <div class="greeting">
-        <h2>Hi Mr Pride</h2>
+        <h2>Hi SMADEY</h2>
         <p>🙋‍♂️ Welcome to the Daily task page page </p>
     </div>
 
@@ -109,8 +116,10 @@
         </p>
     </div>
 </section>
-    <section class="daily-task">
-        <h3>Today's Post</h3>
+ 
+
+     <section class="daily-task">
+        <h3>Accelerate Today</h3>
         <hr>
         <div class="daily-task-container">
             <div class="daily-task-box">
@@ -119,14 +128,24 @@
                     <label for="name" class="Name">Enter Product Name:</label><br>
                     <input type="text" name="name" placeholder="Activity Name" required /><br>
 
-                     <label for="name" class="ID">Enter Product ID</label><br>
-                    <input type="text" name="ID" placeholder="product Name" required /><br>
+                     <label for="name" class="ID">Month Name</label><br>
+                    <input type="text" name="ID" placeholder="June Again" required /><br>
+
+                     <label for="name" class="ID">product motivation</label><br>
+                    <input type="text" name="ID" placeholder="description"  /><br>
+
+                     <label for="name" class="ID">Amount</label><br>
+                    <input type="text" name="ID" placeholder="200 AC" required /><br>
 
                      <label for="name" class="product-link">Enter social Link:</label><br>
                     <input type="text" name="name" placeholder="Social Link" required /><br>
 
                      <label for="name" class="Password">Enter Password:</label><br>
-                    <input type="Password" name="name" placeholder="Enter admin or vendors Password" required/><br>
+                    <input type="Password" name="name" placeholder="Enter admin Password" required/><br>
+                    
+                    <label for="name" class="product-link">task Image:</label><br>
+                    <input type="file" name="image" required /><br>
+                    
                     <button class="submit-task">Enter Task</button>
                 </form>
             </div>
@@ -137,5 +156,6 @@
         
 
     <script src="/JS/main.js"></script>
+    <script src="/JS/main-2.js"></script>
 </body>
 </html>

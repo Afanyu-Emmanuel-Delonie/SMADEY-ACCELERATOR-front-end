@@ -1,0 +1,52 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Prevent scrolling while loading */
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader-content {
+  text-align: center;
+}
+
+.smadey-logo {
+  /*AddstylesfortheanimatedSmadeylogo*/width: 100px;
+  /*Adjustsizeasneeded*/height: 100px;
+  /*Adjustsizeasneeded*/background-image: url('smadey-logo.png');
+  /*Replace'smadey-logo.png'withthepathtoyourSmadeylogoimage*/background-size: cover;
+  animation: spin 2s linear infinite;
+   /* Example animation - adjust as needed */:;
+  -webkit-animation: spin 2s linear infinite;
+}
+
+.loader-text {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.loader-text h4{
+    font-size: 18px ;
+    color: linear(to right #000fff #ff5600);
+
+}
+
+.main-content {
+  display: none; /* Hide main content while loading */
+}
+
+/* Example animation for the Smadey logo */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

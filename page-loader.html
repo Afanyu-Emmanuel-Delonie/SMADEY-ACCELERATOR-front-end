@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Loader</title>
+  <link rel="stylesheet" href="CSS/page-loader.css">
+</head>
+<body>
+  <div class="loader">
+    <div class="loader-content">
+      <!-- Animated Smadey logo -->
+      <div class="smadey-logo">
+       <h4>..........</h4>
+      </div>
+      <!-- Loader text -->
+      <div class="loader-text">SMADEY...</div>
+    </div>
+  </div>
+
+  <!-- Your main content -->
+  <div class="main-content">
+    <!-- Place your main content here -->
+  </div>
+
+  <script>
+    // Simulate loading delay (remove this in production)
+setTimeout(() => {
+  // Hide loader
+  document.querySelector('.loader').style.display = 'none';
+  // Show main content
+  document.querySelector('.main-content').style.display = 'block';
+}, 3000); // Adjust the delay time as needed
+
+  </script>
+</body>
+</html>
